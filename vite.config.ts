@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/PetFest/',
+  server: {
+    allowedHosts: ['d99b-187-136-170-44.ngrok-free.app'],
+  }
 })
