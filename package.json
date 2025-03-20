@@ -2,8 +2,8 @@
   "name": "petfest",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "homepage": "https://alexandergalvan.github.io/PetFest/",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
