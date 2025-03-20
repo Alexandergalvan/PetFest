@@ -21,7 +21,7 @@ const Concursos = () => {
       fecha: '2024-04-27',
       hora: '14:00',
       lugar: 'Área de Concursos',
-      imagen: '/images/concursos/disfraces.webp',
+      imagen: import.meta.env.BASE_URL + '/images/concursos/disfraces.webp',
       premios: [
         '1er lugar: Kit de cuidado premium + $500',
         '2do lugar: Kit de juguetes + $300',
@@ -41,7 +41,7 @@ const Concursos = () => {
       fecha: '2024-04-27',
       hora: '24:00',
       lugar: 'Redes Sociales',
-      imagen: '/images/concursos/famosos.webp',
+      imagen: import.meta.env.BASE_URL + '/images/concursos/famosos.webp',
       premios: [
         '1er lugar: Kit VIP de mascota + $1000',
         '2do lugar: Kit de cuidado premium + $500',

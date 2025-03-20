@@ -20,7 +20,7 @@ const RedesSociales = () => {
       id: 1,
       redSocial: 'instagram',
       contenido: '¡Prepárense para el Festival de Mascotas! 🐾✨',
-      imagen: '/images/redes/instagram-1.jpg',
+      imagen: import.meta.env.BASE_URL + '/images/redes/instagram-1.jpg',
       fecha: 'Hace 2 horas',
       likes: 245,
       comentarios: 32,
@@ -30,7 +30,7 @@ const RedesSociales = () => {
       id: 2,
       redSocial: 'facebook',
       contenido: 'Conoce a nuestros patrocinadores y todo lo que preparan para ti y tu mascota.',
-      imagen: '/images/redes/facebook-1.jpg',
+      imagen: import.meta.env.BASE_URL + '/images/redes/facebook-1.jpg',
       fecha: 'Hace 5 horas',
       likes: 189,
       comentarios: 45,
@@ -40,7 +40,7 @@ const RedesSociales = () => {
       id: 3,
       redSocial: 'twitter',
       contenido: '¡Últimos días para inscribirte a los concursos! 🏆',
-      imagen: '/images/redes/twitter-1.jpg',
+      imagen: import.meta.env.BASE_URL + '/images/redes/twitter-1.jpg',
       fecha: 'Hace 1 día',
       likes: 156,
       comentarios: 28,
@@ -50,7 +50,7 @@ const RedesSociales = () => {
       id: 4,
       redSocial: 'instagram',
       contenido: 'Mira las fotos de la edición anterior 📸',
-      imagen: '/images/redes/instagram-2.jpg',
+      imagen: import.meta.env.BASE_URL + '/images/redes/instagram-2.jpg',
       fecha: 'Hace 2 días',
       likes: 312,
       comentarios: 67,
@@ -60,7 +60,7 @@ const RedesSociales = () => {
       id: 5,
       redSocial: 'facebook',
       contenido: '¡Nuevos premios y sorpresas para este año! 🎁',
-      imagen: '/images/redes/facebook-2.jpg',
+      imagen: import.meta.env.BASE_URL + '/images/concursos/famosos.webp',
       fecha: 'Hace 3 días',
       likes: 278,
       comentarios: 89,
@@ -70,7 +70,7 @@ const RedesSociales = () => {
       id: 6,
       redSocial: 'twitter',
       contenido: 'Conoce a los veterinarios que estarán presentes 👨‍⚕️',
-      imagen: '/images/redes/twitter-2.jpg',
+      imagen: import.meta.env.BASE_URL + '/images/redes/twitter-2.jpg',
       fecha: 'Hace 4 días',
       likes: 134,
       comentarios: 42,
@@ -170,8 +170,8 @@ const RedesSociales = () => {
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-3">
                   <span className={`px-3 py-1 rounded-full text-sm font-medium ${post.redSocial === 'instagram' ? 'bg-pink-100 text-pink-800' :
-                      post.redSocial === 'facebook' ? 'bg-blue-100 text-blue-800' :
-                        'bg-sky-100 text-sky-800'
+                    post.redSocial === 'facebook' ? 'bg-blue-100 text-blue-800' :
+                      'bg-sky-100 text-sky-800'
                     }`}>
                     {post.redSocial === 'instagram' ? 'Instagram' :
                       post.redSocial === 'facebook' ? 'Facebook' : 'Twitter'}

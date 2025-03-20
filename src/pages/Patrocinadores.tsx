@@ -125,7 +125,7 @@ const Patrocinadores = () => {
             >
               <div className="aspect-w-16 aspect-h-9 mb-4">
                 <img
-                  src={patrocinador.logo}
+                  src={import.meta.env.BASE_URL + patrocinador.logo}
                   alt={patrocinador.nombre}
                   className="w-full h-full object-contain"
                 />

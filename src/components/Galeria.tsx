@@ -23,56 +23,56 @@ const Galeria = () => {
   const imagenes: Imagen[] = [
     {
       id: 1,
-      url: '/images/galeria/perro.webp',
+      url: import.meta.env.BASE_URL + '/images/galeria/perro.webp',
       titulo: 'Perro Jugando',
       descripcion: 'Momentos divertidos en el área de juegos',
       categoria: 'mascotas'
     },
     {
       id: 2,
-      url: '/images/galeria/inauguracion.webp',
+      url: import.meta.env.BASE_URL + '/images/galeria/inauguracion.webp',
       titulo: 'Inauguración',
       descripcion: 'Ceremonia de apertura del festival',
       categoria: 'eventos'
     },
     {
       id: 3,
-      url: '/images/galeria/talento.webp',
+      url: import.meta.env.BASE_URL + '/images/galeria/talento.webp',
       titulo: 'Concurso de Talento',
       descripcion: 'Participantes mostrando sus habilidades',
       categoria: 'concursos'
     },
     {
       id: 4,
-      url: '/images/galeria/adiestramiento.webp',
+      url: import.meta.env.BASE_URL + '/images/galeria/adiestramiento.webp',
       titulo: 'Exhibición de Adiestramiento',
       descripcion: 'Demostración de obediencia canina',
       categoria: 'exhibiciones'
     },
     {
       id: 5,
-      url: '/images/galeria/gato.webp',
+      url: import.meta.env.BASE_URL + '/images/galeria/gato.webp',
       titulo: 'Gato Descansando',
       descripcion: 'Área de descanso para mascotas',
       categoria: 'mascotas'
     },
     {
       id: 6,
-      url: '/images/galeria/conferencia.webp',
+      url: import.meta.env.BASE_URL + '/images/galeria/conferencia.webp',
       titulo: 'Conferencia',
       descripcion: 'Expertos compartiendo conocimientos',
       categoria: 'eventos'
     },
     {
       id: 7,
-      url: '/images/galeria/concurso.webp',
+      url: import.meta.env.BASE_URL + '/images/galeria/concurso.webp',
       titulo: 'Concurso de Disfraces',
       descripcion: 'Mascotas con sus mejores disfraces',
       categoria: 'concursos'
     },
     {
       id: 8,
-      url: '/images/galeria/agilidad.webp',
+      url: import.meta.env.BASE_URL + '/images/galeria/agilidad.webp',
       titulo: 'Exhibición de Agilidad',
       descripcion: 'Perros demostrando su destreza',
       categoria: 'exhibiciones'

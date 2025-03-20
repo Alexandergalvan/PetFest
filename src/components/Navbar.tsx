@@ -29,7 +29,7 @@ const Navbar = () => {
             <Link to="/" className="flex-shrink-0 flex items-center">
               <img
                 className="h-8 w-auto"
-                src="/images/logo.webp"
+                src={import.meta.env.BASE_URL + '/images/logo.webp'}
                 alt="PetFest Logo"
               />
             </Link>

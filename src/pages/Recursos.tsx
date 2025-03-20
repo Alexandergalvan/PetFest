@@ -37,13 +37,13 @@ const Recursos = () => {
       titulo: 'Guía de Cuidados Básicos para Perros',
       descripcion: 'Aprende los fundamentos del cuidado diario de tu perro, desde el cepillado hasta el baño.',
       tipo: 'guia',
-      imagen: '/images/recursos/cuidados-perros.webp',
+      imagen: import.meta.env.BASE_URL + '/images/recursos/cuidados-perros.webp',
       url: '#',
       categoria: 'cuidados',
       fecha: '2024-03-15',
       contenido: {
         tipo: 'pdf',
-        url: '/recursos/Cuidados para perros, guía completa para el bienestar canino.pdf',
+        url: import.meta.env.BASE_URL + '/recursos/Cuidados para perros, guía completa para el bienestar canino.pdf',
         autor: 'Cobee Team',
         tags: ['perros', 'cuidados básicos', 'higiene']
       }
@@ -53,7 +53,7 @@ const Recursos = () => {
       titulo: 'Entrenamiento Básico para Gatos',
       descripcion: 'Descubre técnicas efectivas para entrenar a tu gato y mejorar su comportamiento.',
       tipo: 'video',
-      imagen: '/images/recursos/entrenamiento-gatos.webp',
+      imagen: import.meta.env.BASE_URL + '/images/recursos/entrenamiento-gatos.webp',
       url: '#',
       categoria: 'entrenamiento',
       fecha: '2024-03-14',
@@ -70,7 +70,7 @@ const Recursos = () => {
       titulo: 'Signos de Enfermedad en Mascotas',
       descripcion: 'Aprende a identificar los primeros signos de enfermedad en tu mascota.',
       tipo: 'articulo',
-      imagen: '/images/recursos/PetHealth.webp',
+      imagen: import.meta.env.BASE_URL + '/images/recursos/PetHealth.webp',
       url: '#',
       categoria: 'salud',
       fecha: '2024-03-13',
@@ -86,13 +86,13 @@ const Recursos = () => {
       titulo: 'Nutrición Balanceada para Mascotas',
       descripcion: 'Guía completa sobre alimentación saludable para perros y gatos.',
       tipo: 'guia',
-      imagen: '/images/recursos/nutricion-mascotas.webp',
+      imagen: import.meta.env.BASE_URL + '/images/recursos/nutricion-mascotas.webp',
       url: '#',
       categoria: 'nutricion',
       fecha: '2023-07-28',
       contenido: {
         tipo: 'pdf',
-        url: '/recursos/Guía para la alimentación de perros y gatos.pdf',
+        url: import.meta.env.BASE_URL + '/recursos/Guía para la alimentación de perros y gatos.pdf',
         autor: 'Pepe Herrera / Emiliano Sánchez',
         tags: ['nutrición', 'alimentación', 'dieta']
       }

@@ -37,7 +37,7 @@ const Hero = () => {
           >
             <div className="aspect-w-4 aspect-h-3 rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/images/galeria/home.webp"
+                src={import.meta.env.BASE_URL + '/images/galeria/home.webp'}
                 alt="Perro feliz en el festival"
                 className="w-full h-full object-cover"
               />
