@@ -2,7 +2,7 @@
   "name": "petfest",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://alexandergalvan.github.io/PetFest/",
+  "homepage": "https://petfest.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",

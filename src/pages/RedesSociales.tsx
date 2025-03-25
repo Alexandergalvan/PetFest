@@ -20,7 +20,7 @@ const RedesSociales = () => {
       id: 1,
       redSocial: 'instagram',
       contenido: '¡Prepárate para el PetFest 2024! 🐾✨ #PetFest2024 #Mascotas #Festival',
-      imagen: import.meta.env.BASE_URL + '/images/social/instagram-post1.jpg',
+      imagen: '/images/social/instagram-post1.jpg',
       fecha: '2024-03-15T10:00:00',
       likes: 245,
       comentarios: 12,
@@ -30,7 +30,7 @@ const RedesSociales = () => {
       id: 2,
       redSocial: 'facebook',
       contenido: '¡Nuevo concurso de disfraces para mascotas! Participa y gana premios increíbles. 🎭🐕',
-      imagen: import.meta.env.BASE_URL + '/images/concursos/famosos.webp',
+      imagen: '/images/concursos/famosos.webp',
       fecha: '2024-03-14T15:30:00',
       likes: 189,
       comentarios: 8,
@@ -185,7 +185,7 @@ const RedesSociales = () => {
 
                   {post.imagen && (
                     <img
-                      src={post.imagen}
+                      src={import.meta.env.BASE_URL + post.imagen}
                       alt=""
                       className="w-full h-96 object-scale-down rounded-lg mb-4"
                     />
